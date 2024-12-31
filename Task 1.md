@@ -45,10 +45,3 @@ A very basic HTML webpage using all HTML tags
 </body>
 </html>
 ```
-
-    <footer>
-        <p>&copy; 2024 Radiohead Fan Page. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
-```
