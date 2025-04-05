@@ -32,9 +32,11 @@ result.show()
 ```
 
 I got the original image
+
 ![combined_image](https://github.com/user-attachments/assets/cf818ec8-b8d7-4432-ab11-e1967685f850)
 
 Since the flag is not visible in plain sight I used an [online steganography tool](https://georgeom.net/StegOnline/image) and played with the options until it gave me the flag
+
 ![image](https://github.com/user-attachments/assets/23fe5495-1480-4ed9-a857-27e621eca7bd)
 
 Thus the flag for this challenge is `picoCTF{7188864c}`
