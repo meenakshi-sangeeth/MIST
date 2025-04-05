@@ -27,7 +27,7 @@ Wqc xmzp ub: ruseSWX{5NG5717N710L_3A0MN710L_357GX9XX}
 ```
 A *frequency attack* is a cryptanalysis technique used to break substitution ciphers by studying the frequency of letters or groups of letters in the encrypted message (ciphertext)
 
-As the hint suggested, I did a frequency attack using an ![online frequency analysis tool](https://www.dcode.fr/frequency-analysis) and voilà I got the flag :)
+As the hint suggested, I did a frequency attack using an [online frequency analysis tool](https://www.dcode.fr/frequency-analysis) and voilà I got the flag :)
 
 ![image](https://github.com/user-attachments/assets/7d3cb5b4-6f29-4c66-8d2b-58c8db1a3f41)
 
