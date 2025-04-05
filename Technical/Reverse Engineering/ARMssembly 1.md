@@ -115,5 +115,7 @@ Now let's analyse the program to get a faint idea of what's going on
 
 ## Solution
 
-The challenge requires the program to print "You win!". For that `w0`, which is the result of subtraction at `[sp, 28]`, should be 0. This happens when 3370 − argument = 0 which implies argument = 3370. After converting 3370 into hex, lowercase, no 0x, and 32 bits we get 00000d2a. Thus the flag for this challenge is `picoCTF{00000d2a}`
+The challenge requires the program to print "You win!". For that `w0`, which is the result of subtraction at `[sp, 28]`, should be 0. This happens when 3370 − argument = 0 which implies argument = 3370. After converting 3370 into hex, lowercase, no 0x, and 32 bits we get 00000d2a. 
+
+Thus the flag for this challenge is `picoCTF{00000d2a}`
 
