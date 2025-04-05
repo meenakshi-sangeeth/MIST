@@ -15,7 +15,7 @@ I have these 2 images, can you make a flag out of them? scrambled1.png scrambled
 
 ![scrambled2](https://github.com/user-attachments/assets/ce25a37a-f7ae-46fe-afb6-84fbda7ffa17)
 
-From the hints, I came to the comclusion that I'll have to blend the two images to get the original image which might lead me to the flag. For that I referred to (this)[https://www.tutorialspoint.com/python_pillow/python_pillow_image_blending.htm] and used the following code
+From the hints, I came to the comclusion that I'll have to blend the two images to get the original image which might lead me to the flag. For that I referred to [this](https://www.tutorialspoint.com/python_pillow/python_pillow_image_blending.htm) and used the following code
 
 ```bash
 from PIL import Image
