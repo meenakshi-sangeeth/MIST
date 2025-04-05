@@ -100,6 +100,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 From the code it's clear that the program takes two command-line arguments, converts them to integers, compares them, and prints the larger number. So 4112417903 will be printed since it's the larger integer. Since the flag requires the integer to be in hex, I converted it to hex format with lowercase, no 0x, and 32 bits
+
 ![image](https://github.com/user-attachments/assets/f3f5708b-535a-402a-9400-027ed2099139)
 
 Thus the flag for this challenge is `picoCTF{f51e846f}`
