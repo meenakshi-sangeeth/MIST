@@ -15,9 +15,11 @@ challenge.zip
 ## Solution
 
 Inside the attached zip folder was the following image
+
 ![image](https://github.com/user-attachments/assets/bca5bd24-b69d-455c-b03f-8c8cae607a2b)
 
 I simply scanned the QR code using an online [QR code scanner](https://scanqr.org/) and I got the flag
+
 ![image](https://github.com/user-attachments/assets/c02c537b-0ed6-4eb6-8ded-993399bbe262)
 
 Thus the flag for this challenge is `picoCTF{p33k_@_b00_0194a007}`
