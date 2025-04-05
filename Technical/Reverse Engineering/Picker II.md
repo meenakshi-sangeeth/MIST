@@ -188,7 +188,7 @@ while(True):
     break
 ```
 By analyzing the code, it is clear that `win()` function should be executed to get the flag in hexadecimal format. But the catch is the program restricts access to the `win()` function with `filter()` function which blocks any input containing the word 'win'. 
-FIrst I tried inputing  `'wi'+'n'` since it won't match with 'win' bypassing the `filter()` function but it didn't work. I further googled on accessing function names when I found about `globals()` from this https://llego.dev/posts/calling-functions-name-python/ site. `globals()` will give you direct access to all global variables and functions, including ones like win—even if you can't refer to them directly by name. I figured I'll have to make use of `globals()` along with string concatenation to get the flag in hexadecimal format
+FIrst I tried inputing  `'wi'+'n'` since it won't match with 'win' bypassing the `filter()` function but it didn't work. I further googled on accessing function names when I found about `globals()` from this [site](https://llego.dev/posts/calling-functions-name-python/). `globals()` will give you direct access to all global variables and functions, including ones like win—even if you can't refer to them directly by name. I figured I'll have to make use of `globals()` along with string concatenation to get the flag in hexadecimal format
 
 ```bash
 ~# nc saturn.picoctf.net 64997
